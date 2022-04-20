@@ -37,3 +37,17 @@ for (const taco of team) {
   console.log(taco)
   instructors.innerHTML += `<h1>${taco.id}</h1>`
 }
+
+const div = document.querySelector('main-btn');
+div.addEventListener('click', (event) =>{
+  if (event.target.id === "secondary-btn") {
+    console.log("button")
+  }
+
+
+const div = document.querySelector('main-btn');
+div.addEventListener('click', (event) =>{
+  if (event.target.id === "third-btn") {
+    console.log("button")
+  }
+}
